@@ -1,0 +1,40 @@
+.producto-detalle {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.producto-detalle h1 {
+  margin-bottom: 1rem;
+}
+
+.product-image {
+  max-width: 100%;
+  height: 300px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.producto-detalle p {
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
+
+.product-images-gallery {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  overflow-x: auto;
+}
+
+.gallery-image {
+  height: 100px;
+  object-fit: contain;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.1);
+}

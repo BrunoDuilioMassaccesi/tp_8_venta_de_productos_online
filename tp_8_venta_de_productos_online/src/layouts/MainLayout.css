@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0a74da;
+  padding: 0.5rem 2rem;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo img {
+  height: 40px;
+}
+
+main {
+  padding: 2rem 0;
+  flex-grow: 1;
+}
+
+footer.footer {
+  background-color: #0a74da;
+  color: white;
+  text-align: center;
+  padding: 1rem 2rem;
+  margin-top: auto;
+  font-size: 0.9rem;
+}
