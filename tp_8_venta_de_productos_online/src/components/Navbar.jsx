@@ -28,12 +28,12 @@ function Navbar() {
             <ul className="dropdown-content">
               <li><NavLink to="/productos" className={({ isActive }) => isActive ? 'active' : ''}>Ver todos</NavLink></li>
               {categories.map(category => (
-                <li key={category}>
+                <li key={category.slug}>
                   <NavLink 
-                    to={`/productos/${category}`} 
+                    to={`/productos/${category.slug}`} 
                     className={({ isActive }) => isActive ? 'active' : ''}
                   >
-                    {category.charAt(0).toUpperCase() + category.slice(1)}
+                    {category.name}
                   </NavLink>
                 </li>
               ))}
