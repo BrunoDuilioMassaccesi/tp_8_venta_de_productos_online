@@ -7,13 +7,11 @@ function Home() {
     <div className="home-container">
       <section className="hero">
         <div className="hero-content">
-          <h1>Bienvenidos a Mi Tienda Online</h1>
+          <h1>Bienvenidos a Mi Tienda De Productos Online</h1>
           <p>Encuentra los mejores productos al mejor precio, con calidad y envío rápido.</p>
           <Link to="/productos" className="btn-primary">Ver Productos</Link>
         </div>
-        <div className="hero-image">
-          <img src="/vite.svg" alt="Tienda Online" />
-        </div>
+
       </section>
 
       <section className="categories">

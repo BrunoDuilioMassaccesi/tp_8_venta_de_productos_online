@@ -1,6 +1,30 @@
+*{
+  text-align: center;
+}
 .quienes-somos {
   max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
   line-height: 1.6;
+}
+
+.office-photos img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.office-photos {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.office-photos img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
 }

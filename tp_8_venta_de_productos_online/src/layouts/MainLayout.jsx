@@ -9,7 +9,7 @@ function MainLayout() {
     <div className="main-layout">
       <header>
         <div className="logo">
-          <img src="/vite.svg" alt="Logo" />
+          <img src="/imagenes/logo.png" alt="Logo" />
         </div>
         <Navbar />
       </header>
